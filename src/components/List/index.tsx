@@ -10,10 +10,10 @@ export function Entrada() {
     <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Digite o nome de usuário</Form.Label>
-        <Form.Control name='usuario' type="text" value={} placeholder="Digite o nome de usuário" />
+        <Form.Control name='usuario' type="text" /*value={}*/ placeholder="Digite o nome de usuário" />
       </Form.Group>
 
-      <Button variant="primary" type="submit" onClick={}>
+      <Button variant="primary" type="submit" /*onClick={}*/>
         Pesquisar
       </Button>
     </Form>
@@ -40,23 +40,4 @@ export function List() {
             dados()
         </div>
     )
-    
-    /*
-    return (
-        <div>
-            { isLoading ? <BeatLoader color="blue"/>: ""}
-            {users.map(function (user) {
-                return <CardUser key={user.email} user={user} />
-            })
-            }
-            
-            ---{/
-                Pode ser feito assim:
-                    <div className="App">
-                        users.map(user=><CardUser key={user.id} user={user}/>
-                    </div>
-            /}------
-        </div>
-    )
-    */
 }
