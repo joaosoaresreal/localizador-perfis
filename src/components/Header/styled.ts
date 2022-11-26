@@ -8,6 +8,7 @@ export const HeaderStyle = styled.header`
     align-items: center;
     padding: 10px;
     margin-bottom: 15px;
+    padding-left: 10%;
     h1{
         font-size: 22px;
         font-weight: 600;

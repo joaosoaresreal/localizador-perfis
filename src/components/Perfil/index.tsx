@@ -12,12 +12,15 @@ type PerfilProps = {
 
 export function Perfil({user}:PerfilProps) {
     return(
+        
         <PerfilStyle>
-            <img src={user.avatar_url}/>
-            <div className='info'>
+            
+            <div>
+                <img src={user.avatar_url}/>
                 <h3>{user.name}</h3>
+                <button><a href={user.html_url} target="_blank">Perfil no Github</a></button>
             </div>
-            <a href={user.html_url}></a>
+            
         </PerfilStyle>
     )
 }

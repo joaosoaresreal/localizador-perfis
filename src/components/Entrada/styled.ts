@@ -1,7 +1,11 @@
 import styled from 'styled-components'
 
-export const Entradatyled = styled.div`
+export const EntradaStyled = styled.div`
     padding-left: 10%;
+    .form{
+        width: 400px;
+        padding-bottom: 4px;
+    }
 
     p{
         font-weight: bold;
@@ -9,6 +13,6 @@ export const Entradatyled = styled.div`
 
     Button{
         font-size: 150%;
-        
+        width: 400px;
     }
 `
