@@ -1,7 +1,6 @@
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
-import { useEffect, useState } from "react"
-import { BeatLoader } from "react-spinners"
+import { useState } from "react"
 import { getUsers } from "../../api/users"
 import { Perfil } from "../Perfil"
 import 'bootstrap/dist/css/bootstrap.min.css';
